@@ -1,0 +1,28 @@
+echo   
+echo   
+echo THIS PROGRAM USES UNIRAS
+echo ________________________
+echo   
+echo TO PRINT TO SCREEN:
+echo s mx11
+echo exit
+echo   
+echo TO PRINT TO POSTSCRIPT:
+echo s hposta4
+echo mode R
+echo exit
+echo ________________________
+echo    
+echo    
+unilink myplot.f
+myplot
+echo   
+echo   
+echo    
+echo TO RESET LICENSE:
+echo cd ~ccibs/
+echo source go.6v5a
+echo ________________________
+echo    
+echo    
+mv POST UNTITLED.ps
